@@ -1,0 +1,95 @@
+:root {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+/* body * {
+  border: 1px solid black;
+} */
+
+body {
+  background: linear-gradient(#dbc0c0, #ffffff);
+  background-repeat: no-repeat;
+  text-align: center;
+  color: white;
+  height: 100vh;
+}
+
+.timer-box {
+  display: flex;
+  justify-content: center;
+}
+
+.timer-set-box {
+  background: red;
+  display: flex;
+  flex-direction: column;
+  width: 68%;
+  margin: 2%;
+}
+
+#time {
+  font-size: 6rem;
+}
+
+h1 {
+  font-size: 6rem;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.tomato {
+  height: 300px; 
+  background: #a52a2a;
+}
+
+#timer-button {
+  font-size: 4rem;
+}
+
+.t1 {
+  background: url("../img/Tomato-by-Rones.png");
+  background-color: #8f4f4f;
+  background-repeat: no-repeat;
+  background-size: 50px;
+  background-position: center bottom;
+}
+
+.t2 {
+  background: url("../img/Tomato-by-Rones.png");
+  background-color: #8f4f4f;
+  background-repeat: no-repeat;
+  background-size: 100px;
+  background-position: center bottom;
+}
+
+.t3 {
+  background: url("../img/Tomato-by-Rones.png");
+  background-color: #8f4f4f;
+  background-repeat: no-repeat;
+  background-size: 150px;
+  background-position: center bottom;
+}
+
+.t4 {
+  background: url("../img/Tomato-by-Rones.png");
+  background-color: #8f4f4f;
+  background-repeat: no-repeat;
+  background-size: 200px;
+  background-position: center bottom;
+}
+
+.t5 {
+  background: url("../img/Tomato-by-Rones.png");
+  background-color: #8f4f4f;
+  background-repeat: no-repeat;
+  background-size: 250px;
+  background-position: center bottom;
+}
+
+.t6 {
+  background: url("../img/Tomato-by-Rones.png");
+  background-color: rgb(75, 131, 75);
+  background-repeat: no-repeat;
+  background-size: 300px;
+  background-position: center bottom;
+}
